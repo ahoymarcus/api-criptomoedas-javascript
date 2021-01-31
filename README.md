@@ -1,6 +1,6 @@
 # Projeto Front-end - API Criptomoedas
 
-Aprendendo a fazer uma requisição de uma API de Criptomoeda com Javascript, utilizando também CSS Bootstrap. </ br>
+Aprendendo a fazer uma requisição de uma API de Criptomoeda com Javascript, utilizando também CSS Bootstrap.  <br>
 
 Projeto Web utilizando a API Coin Market Cap <br>
 [Portal do desenvolvedor](https://pro.coinmarketcap.com/account) <br>

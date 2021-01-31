@@ -1,0 +1,115 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background: #dcdc90;/*#909060;#e6e697*/
+    color: #402121;/*#796060*/
+}
+
+
+header, section {
+    margin: auto auto 50px 100px;
+}
+
+header {
+    text-align: center;
+}
+header h1 {
+    font-size: 60px;margin-bottom: 10px;
+}
+header p {
+    font-size: 24px;
+}
+
+
+nav {
+    padding: 40px;
+    margin-bottom: 50px;
+}
+nav, footer {
+    background: #f3f3a3;
+}
+
+nav .nav-container, .media, .media .media-container {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    
+}
+nav .nav-container, .media {
+    justify-content: space-around;
+}
+.media .media-container {
+    justify-content: space-between;
+    
+    width: 70%;
+}
+
+
+
+nav p {
+    font-size: 16px;
+}
+nav ul {
+    display: flex;
+}
+nav li {
+    margin-left: 20px;
+    list-style: none;
+}
+nav a {
+    color: #a7841e;
+    text-decoration: none;
+}
+
+section h2 {
+    font-size: 30px;
+}
+section p {
+    text-align: justify;
+    width: 85%;
+}
+
+
+footer {
+    padding: 40px 20px 30px 20px;
+}
+
+footer p {
+    margin-left: 70px;
+}
+
+
+
+.container {
+    display: flex;
+    flex-direction: column;
+    justify-content:space-evenly;
+}
+
+#wiki .container, #coinmarketcap .container {
+    align-items: center;
+}
+#wiki .container, #coinmarketcap .container {
+    height: 500px;
+}
+#coinmarketcap .container {
+    height: 400px;
+}
+
+#wiki img {
+    width: 450px;
+    height: 150px;
+}
+#coinmarketcap img {
+    width: 350px;
+    height: 250px;
+}
+
+
+.container-media {
+    display: flex;
+}
+
