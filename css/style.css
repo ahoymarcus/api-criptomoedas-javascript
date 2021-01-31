@@ -11,12 +11,14 @@ body {
 
 header, section {
     margin: auto auto 50px 100px;
+    padding: 30px;
 }
 
 header {
     text-align: center;
 }
 header h1 {
+    color: #92751f;
     font-size: 60px;margin-bottom: 10px;
 }
 header p {
@@ -50,7 +52,11 @@ nav .nav-container, .media {
 
 
 nav p {
+    color: black;
     font-size: 16px;
+}
+nav a {
+    font-size: 20px;
 }
 nav ul {
     display: flex;
@@ -60,10 +66,17 @@ nav li {
     list-style: none;
 }
 nav a {
-    color: #a7841e;
+    color: #655938;/*#a7841e;*/
     text-decoration: none;
 }
+nav a:hover {
+    color: #888359;
+    font-size: 22px;
+}
 
+section {
+    background: #bba17a1c;
+}
 section h2 {
     font-size: 30px;
 }
@@ -99,6 +112,18 @@ footer p {
     height: 400px;
 }
 
+
+#coins div {
+    background: #ffc10714;
+    padding: 10px;
+}
+
+#coins img {
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+}
+
 #wiki img {
     width: 450px;
     height: 150px;
@@ -109,7 +134,9 @@ footer p {
 }
 
 
-.container-media {
-    display: flex;
-}
+
+
+
+
+
 

@@ -22,7 +22,7 @@ fetch('https://pro-api.coinmarketcap.com/v1/cryptocurrency/map?CMC_PRO_API_KEY='
             texto = texto + `
 
                 <div class="media">
-                    <img src="images/coin.jpg" class="" alt="coin" width="100" height="60" />
+                    <img src="images/bitcoin3-small.jpg" class="" alt="coin" />
                     <div class="media-container">
                         <div>
                             <h5 class="">${api.data[i].name}</h5>
